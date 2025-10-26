@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Скрипт для удобного управления громкостью на сайте Anilibria с помощью колесика мыши и UI-интерфейсом.
-// @author       You
+// @author       https://github.com/ilfae
 // @match        https://anilibria.top/anime/video/episode/*
 // @grant        GM_addStyle
 // ==/UserScript==
