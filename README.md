@@ -21,7 +21,7 @@
 - [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
 
 2. **Установите скрипт**
-[Нажмите для установки скрипта](https://github.com/ilfae/Volume-Wheel-Control-for-Anilibria/raw/refs/heads/main/Volume_Control_Anilibria.user.js)
+- [Нажмите для установки скрипта](https://github.com/ilfae/Volume-Wheel-Control-for-Anilibria/raw/refs/heads/main/Volume_Control_Anilibria.user.js)
 
 ## 🎮 Использование
 
