@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Volume Wheel Control for Anilibria
-// @version      1.2
+// @version      1.3
 // @description  Скрипт для удобного управления громкостью на сайте Anilibria с помощью колесика мыши и UI-интерфейсом.
 // @author       https://github.com/ilfae
 // @match        https://anilibria.top/anime/video/episode/*
