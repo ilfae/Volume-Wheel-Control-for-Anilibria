@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         Volume Wheel Control for Anilibria
-// @version      1.1
+// @version      1.2
 // @description  Скрипт для удобного управления громкостью на сайте Anilibria с помощью колесика мыши и UI-интерфейсом.
 // @author       https://github.com/ilfae
 // @match        https://anilibria.top/anime/video/episode/*
+// @updateURL    https://github.com/ilfae/Volume-Wheel-Control-for-Anilibria/raw/refs/heads/main/Volume_Control_Anilibria.user.js
+// @downloadURL  https://github.com/ilfae/Volume-Wheel-Control-for-Anilibria/raw/refs/heads/main/Volume_Control_Anilibria.user.js
 // @grant        GM_addStyle
 // ==/UserScript==
 
@@ -247,16 +249,8 @@
             changeVolume(delta);
         }
 
-        function handleMouseMove(e) {
-            const player = document.querySelector('.native-player, .plyr, .interface, video');
-            if (player && player.contains(e.target)) {
-                showVolumeUI();
-            }
-        }
-
         const player = document.querySelector('.native-player, .plyr, .interface') || video;
         player.addEventListener('wheel', handleWheel, { passive: false });
-        player.addEventListener('mousemove', handleMouseMove);
 
         document.addEventListener('wheel', function(e) {
             const player = document.querySelector('.native-player, .plyr, .interface, video');
@@ -283,13 +277,6 @@
                 changeVolume(delta);
             }
         }, { passive: false });
-
-        document.addEventListener('mousemove', function(e) {
-            const player = document.querySelector('.native-player, .plyr, .interface, video');
-            if (player && player.contains(e.target)) {
-                showVolumeUI();
-            }
-        });
     }
 
     if (document.readyState === 'loading') {
