@@ -16,12 +16,12 @@
 ## 🚀 Установка
 
 1. **Установите расширение Tampermonkey**
-   - [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-   - [Firefox](https://addons.mozilla.org/ru/firefox/addon/tampermonkey/)
-   - [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
+[Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+[Firefox](https://addons.mozilla.org/ru/firefox/addon/tampermonkey/)
+[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
 
 2. **Установите скрипт**
-   - [Нажмите для установки скрипта](https://github.com/ilfae/Volume-Wheel-Control-for-Anilibria/raw/refs/heads/main/Volume_Control_Anilibria.user.js)
+[Нажмите для установки скрипта](https://github.com/ilfae/Volume-Wheel-Control-for-Anilibria/raw/refs/heads/main/Volume_Control_Anilibria.user.js)
 
 ## 🎮 Использование
 
