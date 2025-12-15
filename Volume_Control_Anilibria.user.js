@@ -3,7 +3,8 @@
 // @version      1.3
 // @description  Скрипт для удобного управления громкостью на сайте Anilibria с помощью колесика мыши и UI-интерфейсом.
 // @author       https://github.com/ilfae
-// @match        https://anilibria.top/anime/video/episode/*
+// @match        https://anilibria.top/*
+// @match        https://aniliberty.top/*
 // @updateURL    https://github.com/ilfae/Volume-Wheel-Control-for-Anilibria/raw/refs/heads/main/Volume_Control_Anilibria.user.js
 // @downloadURL  https://github.com/ilfae/Volume-Wheel-Control-for-Anilibria/raw/refs/heads/main/Volume_Control_Anilibria.user.js
 // @grant        GM_addStyle
